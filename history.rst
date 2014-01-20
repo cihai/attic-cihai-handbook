@@ -4,5 +4,5 @@
 History
 =======
 
-.. include:: ../CHANGES
+.. include:: CHANGES
     :start-line: 5
