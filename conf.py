@@ -13,6 +13,7 @@
 import sys, os
 
 sys.path.append(os.path.abspath('.'))
+sys.path.append(os.path.abspath('./_extensions'))
 sys.path.append(os.path.abspath('..'))
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -31,6 +32,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
+    'dataset',
     'changelog',
 ]
 
