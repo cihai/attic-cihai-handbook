@@ -1,16 +1,14 @@
 United front for open, permissive, high quality CJK datasets and clients.
 
-**This project has been split:**
-
 ``Cihai`` is a team, effort, united effort for incubating open,
 permissive, high quality CJK datasets and clients.
 
-- `cihai-handbook`_ provides documentational overviews of the history of
-  CJK, the dataset standards and available client libraries.
-- Official client libraries. `cihai-python`_ will be a python client for
+- `cihai-handbook`_ - how to convert your cjk dataset to
+  `datapackages`_-friendly format.
+- Official client libraries. `cihai-python`_ a python client for
   cihai+datapackages datasets (cjklib style).
-- Public datasets maintained by `cihai team`_. Unihan will be a first
-  example. See `cihaidata-unihan on github`_.
+- Public datasets maintained by `cihai team`_. See `cihaidata-unihan on
+  github`_.
 
 .. _cihai: https://github.com/cihai/
 .. _cihai-handbook: https://github.com/cihai/cihai-handbook
@@ -18,17 +16,16 @@ permissive, high quality CJK datasets and clients.
 .. _cihai-python: https://github.com/cihai/cihai-python
 .. _cihaidata-unihan on github: https://github.com/cihai/cihaidata-unihan
 
-CJK Datasets
-------------
-
-Cihai datasets are compatible with both `datapackages`_ and cihai..
 
 Have a CJK dataset? Consider `permissively licensing your dataset`_ and
-adopting `datapackages`_ standards. For an example of a datapackage + cihai
-enabled dataset, see:
+adopting `datapackages`_ standards.
 
-Standards
-"""""""""
+For an example of a datapackage + cihai enabled dataset, see
+https://github.com/cihai/cihaidata-unihan.
+
+CJK Dataset Standards
+"""""""""""""""""""""
+
 Cihai CJK datasets follows `datapackages`_ format.
 
 - `datapackage.json format`_ - has metadata for source file
@@ -36,18 +33,6 @@ Cihai CJK datasets follows `datapackages`_ format.
 - `simple data format`_ - ``scripts/process.py`` produces ``data/unihan.csv``
 - *(optional)* `PEP 301: python package format`_ - python package installation.
 - *(optional)* `cihai dataset API`_  - python client API ``setup.py``.
-
-Future results
---------------
-
-- Future versions will allow deeper introspection into results:
-
-  - Multiple characters words
-  - Phrases
-  - Mispellings / similar shapes
-  - Sorting results by usage, stroke
-  - Breaking strings of characters into words
-  - More datasets
 
 .. _permissively licensing your dataset: http://cihai.readthedocs.org/en/latest/information_liberation.html
 
