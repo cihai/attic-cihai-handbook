@@ -1,4 +1,4 @@
-.. _cihai:
+.. _index:
 
 =====
 cihai
